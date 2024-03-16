@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EJm-MO-mZZ">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="TriciaDuct" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="MaA-Xd-OJz">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5q6-bt-dBT">
+                                <rect key="frame" x="20" y="160" width="100" height="100"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="EXl-GW-awY"/>
+                                    <constraint firstAttribute="width" constant="100" id="sdp-ju-5gg"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lqH-Jt-JNs">
+                                <rect key="frame" x="20" y="280" width="100" height="100"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Dhz-JM-qA9"/>
+                                    <constraint firstAttribute="width" constant="100" id="FCN-K6-jQZ"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4jy-YV-jfW">
+                                <rect key="frame" x="20" y="400" width="100" height="100"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="F5y-YW-sHT"/>
+                                    <constraint firstAttribute="width" constant="100" id="oc0-QB-Vrp"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mk3-zT-fVX">
+                                <rect key="frame" x="20" y="520" width="100" height="100"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Olu-PF-fck"/>
+                                    <constraint firstAttribute="height" constant="100" id="uzG-wG-MGh"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ms1-cv-yxy">
+                                <rect key="frame" x="86" y="185" width="271" height="50"/>
+                                <color key="backgroundColor" red="0.31372550129999999" green="0.92549020049999997" blue="0.43137252329999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="PNb-l6-dMw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Fourty Triangle">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="LsD-fo-8jn" kind="show" id="BTy-3S-aUd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2VL-yf-lOd">
+                                <rect key="frame" x="86" y="305" width="271" height="50"/>
+                                <color key="backgroundColor" red="0.31372550129999999" green="0.92549020049999997" blue="0.43137252329999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="wtu-qQ-dTu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Thirty Triangle">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="6Ou-ZV-Vz1" kind="show" id="KD3-xB-Cwl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G30-tg-nWT">
+                                <rect key="frame" x="86" y="425" width="271" height="50"/>
+                                <color key="backgroundColor" red="0.31372550129999999" green="0.92549020049999997" blue="0.43137252329999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Q5A-Ej-609"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Equilateral Triangle">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="a3U-Xw-aKR" kind="show" id="kjt-fX-8JU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7f-do-KDy">
+                                <rect key="frame" x="86" y="545" width="271" height="50"/>
+                                <color key="backgroundColor" red="0.31372550129999999" green="0.92549020049999997" blue="0.43137252329999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="kUK-fq-o9p"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Isosceles Triangle">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="W0p-cA-V28" kind="show" id="eep-LS-TSw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="5q6-bt-dBT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="57" id="3ls-35-g5f"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ms1-cv-yxy" secondAttribute="trailing" constant="20" id="5oF-E1-BV8"/>
+                            <constraint firstItem="lqH-Jt-JNs" firstAttribute="top" secondItem="5q6-bt-dBT" secondAttribute="bottom" constant="20" id="7jF-d9-Eop"/>
+                            <constraint firstAttribute="trailing" secondItem="MaA-Xd-OJz" secondAttribute="trailing" id="A5h-2M-fER"/>
+                            <constraint firstItem="MaA-Xd-OJz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Chu-eE-a8H"/>
+                            <constraint firstItem="l7f-do-KDy" firstAttribute="centerY" secondItem="Mk3-zT-fVX" secondAttribute="centerY" id="Fff-h4-vbk"/>
+                            <constraint firstItem="G30-tg-nWT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="70" id="Iaj-wK-uUq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="l7f-do-KDy" secondAttribute="trailing" constant="20" id="JFa-6c-9uz"/>
+                            <constraint firstItem="l7f-do-KDy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="70" id="Kay-3j-GVR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="G30-tg-nWT" secondAttribute="trailing" constant="20" id="OqR-wi-Ydh"/>
+                            <constraint firstItem="ms1-cv-yxy" firstAttribute="centerY" secondItem="5q6-bt-dBT" secondAttribute="centerY" id="PRa-u0-Fru"/>
+                            <constraint firstAttribute="bottom" secondItem="MaA-Xd-OJz" secondAttribute="bottom" id="QED-oA-4oX"/>
+                            <constraint firstItem="2VL-yf-lOd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="70" id="QVC-tx-PqZ"/>
+                            <constraint firstItem="2VL-yf-lOd" firstAttribute="centerY" secondItem="lqH-Jt-JNs" secondAttribute="centerY" id="YLL-6c-LMm"/>
+                            <constraint firstItem="G30-tg-nWT" firstAttribute="centerY" secondItem="4jy-YV-jfW" secondAttribute="centerY" id="ccG-V2-iLQ"/>
+                            <constraint firstItem="Mk3-zT-fVX" firstAttribute="top" secondItem="4jy-YV-jfW" secondAttribute="bottom" constant="20" id="dEa-Zk-Lb1"/>
+                            <constraint firstItem="5q6-bt-dBT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="eld-8p-bxm"/>
+                            <constraint firstItem="MaA-Xd-OJz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hWQ-Ax-uXR"/>
+                            <constraint firstItem="4jy-YV-jfW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="lvl-j6-cqb"/>
+                            <constraint firstItem="Mk3-zT-fVX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="mGH-W8-0Pn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2VL-yf-lOd" secondAttribute="trailing" constant="20" id="ppi-Uk-jXw"/>
+                            <constraint firstItem="ms1-cv-yxy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="70" id="sll-qj-piZ"/>
+                            <constraint firstItem="lqH-Jt-JNs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="t6F-uG-NAW"/>
+                            <constraint firstItem="4jy-YV-jfW" firstAttribute="top" secondItem="lqH-Jt-JNs" secondAttribute="bottom" constant="20" id="ux6-MW-4bC"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="tkz-dV-cS3">
+                        <barButtonItem key="rightBarButtonItem" image="menu" id="kTl-p9-vHX">
+                            <connections>
+                                <segue destination="QpB-Md-6PE" kind="show" id="ljQ-aG-Ryz"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="btn1" destination="ms1-cv-yxy" id="PQh-4b-3cy"/>
+                        <outlet property="btn2" destination="2VL-yf-lOd" id="BrM-gy-idk"/>
+                        <outlet property="btn3" destination="G30-tg-nWT" id="scl-uj-mZu"/>
+                        <outlet property="btn4" destination="l7f-do-KDy" id="Sje-ux-wJU"/>
+                        <outlet property="view1" destination="5q6-bt-dBT" id="2Mp-bg-uKb"/>
+                        <outlet property="view2" destination="lqH-Jt-JNs" id="TWs-yS-KnW"/>
+                        <outlet property="view3" destination="4jy-YV-jfW" id="LlX-zM-REv"/>
+                        <outlet property="view4" destination="Mk3-zT-fVX" id="0EI-B3-zXB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="947.32824427480909" y="-27.464788732394368"/>
+        </scene>
+        <!--Menu-->
+        <scene sceneID="kNp-Lf-2Y5">
+            <objects>
+                <navigationController storyboardIdentifier="navTosidemenu" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QpB-Md-6PE" customClass="SideMenuNavigationController" customModule="SideMenu" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="recent" id="Dwf-yd-tic"/>
+                    <navigationItem key="navigationItem" title="Menu" id="Mkv-Hc-xtu"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gNg-59-QRc">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="leftSide" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <segue destination="KwN-nS-fEP" kind="relationship" relationship="rootViewController" id="EFW-HC-ar8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="azU-sl-GZ0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="95" y="693"/>
+        </scene>
+        <!--Howto-->
+        <scene sceneID="LxF-aq-RaJ">
+            <objects>
+                <viewController storyboardIdentifier="howto" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xLt-Xv-UqH" customClass="howto" customModule="TriciaDuct" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pfg-P3-fIh">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="3Dh-nn-ofv">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7GP-rB-QAk">
+                                <rect key="frame" x="10" y="120" width="373" height="648"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">**TriciaDuct - User Guide**
+
+**1. Installation:**
+   - Download and install TriciaDuct from your preferred app store.
+   - Open the app on your device.
+
+**2. Home Screen:**
+   - Upon opening, you'll find a clean and intuitive home screen with dedicated sections for 30-60-90, 45-45-90, Equilateral, and Isosceles triangles.
+
+**3. Select Triangle Type:**
+   - Choose the specific triangle type you're working with by tapping on the corresponding section.
+
+**4. Input Parameters:**
+   - For 30-60-90 and 45-45-90 triangles: Enter the known angle in degrees.
+   - For Equilateral triangles: Enter the side length in your preferred unit (e.g., cm).
+   - For Isosceles triangles: Enter the lengths of two sides and the height.
+
+**5. Unit Flexibility:**
+   - TriciaDuct supports various units. Ensure consistency in unit selection for accurate results.
+
+**6. Calculate:**
+   - After inputting the required parameters, tap the "Calculate" button to generate results.
+
+**7. View Results:**
+   - The app will display the calculated values, such as side lengths, angles, and area, based on the given inputs.
+
+**8. Clear and Repeat:**
+   - Clear the current inputs using the "Clear" button and input new values for further calculations.
+
+**9. About Us:**
+   - Explore the "About Us" section to learn more about TriciaDuct's mission and commitment to providing a versatile and user-friendly triangle conversion experience.
+
+**10. Enjoy Versatility:**
+   - Whether you're a student, educator, or professional, TriciaDuct offers a comprehensive and versatile solution for all your triangle conversion needs.
+
+**11. Share and Learn:**
+   - Share your results or the app itself with friends and colleagues who might benefit from TriciaDuct's functionality.
+
+**12. Feedback:**
+   - We value your feedback! Feel free to reach out through the app if you have suggestions, encounter issues, or simply want to share your experience.
+
+**TriciaDuct is designed to simplify triangle calculations, providing users with a reliable and efficient tool for mathematical exploration. Enjoy your mathematical journey with TriciaDuct!**</string>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="k3x-Bj-U6s"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="3Dh-nn-ofv" secondAttribute="bottom" id="3dS-wi-vcK"/>
+                            <constraint firstItem="3Dh-nn-ofv" firstAttribute="leading" secondItem="Pfg-P3-fIh" secondAttribute="leading" id="BCO-3c-oSF"/>
+                            <constraint firstItem="k3x-Bj-U6s" firstAttribute="trailing" secondItem="7GP-rB-QAk" secondAttribute="trailing" constant="10" id="E0u-p9-TiC"/>
+                            <constraint firstItem="3Dh-nn-ofv" firstAttribute="top" secondItem="Pfg-P3-fIh" secondAttribute="top" id="Lv7-wJ-izo"/>
+                            <constraint firstItem="7GP-rB-QAk" firstAttribute="top" secondItem="Pfg-P3-fIh" secondAttribute="top" constant="120" id="O6A-IG-eHo"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="7GP-rB-QAk" secondAttribute="bottom" constant="50" id="uD0-6f-6KC"/>
+                            <constraint firstAttribute="trailing" secondItem="3Dh-nn-ofv" secondAttribute="trailing" id="wGp-kF-gOQ"/>
+                            <constraint firstItem="7GP-rB-QAk" firstAttribute="leading" secondItem="k3x-Bj-U6s" secondAttribute="leading" constant="10" id="yOE-rD-eEV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="txtde" destination="7GP-rB-QAk" id="jkB-o1-zaL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OPT-dS-Xum" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2384" y="1371"/>
+        </scene>
+        <!--Abtsvc-->
+        <scene sceneID="3Bs-u4-f0Z">
+            <objects>
+                <viewController storyboardIdentifier="Abtsvc" useStoryboardIdentifierAsRestorationIdentifier="YES" id="YLq-lp-cSl" customClass="Abtsvc" customModule="TriciaDuct" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xVA-LR-nPw">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="unm-I7-HfF">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cq0-uK-ha6">
+                                <rect key="frame" x="10" y="120" width="373" height="648"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">TriciaDuct is your all-in-one triangle toolkit, seamlessly integrating four essential triangle converters into a single, user-friendly app. Our application caters to mathematical enthusiasts, students, and professionals alike, offering quick and accurate solutions for 30-60-90 triangles, 45-45-90 triangles, equilateral triangles, and isosceles triangles.
+
+With TriciaDuct, users can effortlessly convert angles and side lengths, aiding in geometric problem-solving with precision. The intuitive interface ensures a seamless experience as individuals input their triangle parameters, while the app's robust logic performs intricate calculations behind the scenes. Emphasizing versatility, our app provides an inclusive environment for learning and exploration.
+
+TriciaDuct stands out with its commitment to user convenience. The well-designed interface allows users to enter angles, side lengths, and heights in various units, catering to diverse user preferences. Whether you're a student studying geometry or a professional architect requiring quick triangle calculations, TriciaDuct is the go-to tool for your mathematical needs.
+
+Our commitment to accuracy and educational support is reflected in the user-centric design and functionality of TriciaDuct. The "About Us" section within the app echoes our dedication to fostering a positive learning environment and ensuring mathematical concepts are accessible to everyone.
+
+In essence, TriciaDuct is more than just an app; it's a reliable companion for all things triangular. Embrace the power of precision, versatility, and simplicity with TriciaDuct—your comprehensive triangle conversion solution.</string>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="aiL-47-LAq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cq0-uK-ha6" firstAttribute="leading" secondItem="aiL-47-LAq" secondAttribute="leading" constant="10" id="8v4-xT-ISL"/>
+                            <constraint firstAttribute="trailing" secondItem="unm-I7-HfF" secondAttribute="trailing" id="Dmv-6o-2Rk"/>
+                            <constraint firstAttribute="bottom" secondItem="unm-I7-HfF" secondAttribute="bottom" id="GS7-Ju-GVg"/>
+                            <constraint firstItem="aiL-47-LAq" firstAttribute="trailing" secondItem="cq0-uK-ha6" secondAttribute="trailing" constant="10" id="ITN-tE-wdg"/>
+                            <constraint firstItem="unm-I7-HfF" firstAttribute="leading" secondItem="xVA-LR-nPw" secondAttribute="leading" id="VKa-zG-oUH"/>
+                            <constraint firstItem="cq0-uK-ha6" firstAttribute="top" secondItem="xVA-LR-nPw" secondAttribute="top" constant="120" id="dpq-mo-EHI"/>
+                            <constraint firstItem="unm-I7-HfF" firstAttribute="top" secondItem="xVA-LR-nPw" secondAttribute="top" id="feG-ro-O03"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="cq0-uK-ha6" secondAttribute="bottom" constant="50" id="tQr-XW-IEB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="abvcf" destination="cq0-uK-ha6" id="yOP-ke-Szp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cgY-XQ-PQW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1039" y="1371"/>
+        </scene>
+        <!--FeedbackVC-->
+        <scene sceneID="jx9-x4-yUI">
+            <objects>
+                <viewController storyboardIdentifier="FeedbackVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="IKr-vC-m03" customClass="FeedbackVC" customModule="TriciaDuct" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j4a-ng-e3t">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="emN-5a-xt6">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.85000002384185791" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="WOc-4X-w75">
+                                <rect key="frame" x="10" y="140" width="373" height="572"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2hw-y8-CG5">
+                                <rect key="frame" x="50" y="732" width="293" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="xzl-1v-hqo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HoeflerText-BlackItalic" family="Hoefler Text" pointSize="35"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Submit" backgroundImage="button 4">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnShare:" destination="IKr-vC-m03" eventType="touchUpInside" id="Pui-WJ-ppf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="L9O-y6-flP"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="L9O-y6-flP" firstAttribute="trailing" secondItem="WOc-4X-w75" secondAttribute="trailing" constant="10" id="1Ih-9l-SSX"/>
+                            <constraint firstAttribute="bottom" secondItem="emN-5a-xt6" secondAttribute="bottom" id="CS9-18-XQh"/>
+                            <constraint firstItem="2hw-y8-CG5" firstAttribute="leading" secondItem="L9O-y6-flP" secondAttribute="leading" constant="50" id="E9C-7M-KC4"/>
+                            <constraint firstItem="2hw-y8-CG5" firstAttribute="top" secondItem="WOc-4X-w75" secondAttribute="bottom" constant="20" id="JGy-eN-Vpo"/>
+                            <constraint firstAttribute="bottom" secondItem="2hw-y8-CG5" secondAttribute="bottom" constant="20" id="Nq6-vm-phS"/>
+                            <constraint firstAttribute="trailing" secondItem="emN-5a-xt6" secondAttribute="trailing" id="ct2-7M-WuQ"/>
+                            <constraint firstItem="WOc-4X-w75" firstAttribute="leading" secondItem="L9O-y6-flP" secondAttribute="leading" constant="10" id="gDF-8n-5MS"/>
+                            <constraint firstItem="WOc-4X-w75" firstAttribute="top" secondItem="j4a-ng-e3t" secondAttribute="top" constant="140" id="jsN-Da-SLp"/>
+                            <constraint firstItem="emN-5a-xt6" firstAttribute="top" secondItem="j4a-ng-e3t" secondAttribute="top" id="rqC-1Y-mHb"/>
+                            <constraint firstItem="L9O-y6-flP" firstAttribute="trailing" secondItem="2hw-y8-CG5" secondAttribute="trailing" constant="50" id="sFF-UA-UK3"/>
+                            <constraint firstItem="emN-5a-xt6" firstAttribute="leading" secondItem="j4a-ng-e3t" secondAttribute="leading" id="wXg-3O-l3L"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnshareS" destination="2hw-y8-CG5" id="go3-AX-sls"/>
+                        <outlet property="txtFeedback" destination="WOc-4X-w75" id="o0k-FS-8uX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ec3-2W-VP0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1738" y="1371"/>
+        </scene>
+        <!--Menu-->
+        <scene sceneID="leD-hA-gHK">
+            <objects>
+                <viewController storyboardIdentifier="SidemenuVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="KwN-nS-fEP" customClass="SidemenuVC" customModule="TriciaDuct" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cgm-99-FTS">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="Hd9-aJ-Jan">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="GHO-eh-tp9">
+                                <rect key="frame" x="0.0" y="103" width="393" height="749"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="sidemenuTblCell" rowHeight="150" id="LIB-tc-ujg" customClass="sidemenuTblCell" customModule="TriciaDuct" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="150"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LIB-tc-ujg" id="zEU-b5-uEp">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="150"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZYY-HK-GaT">
+                                                    <rect key="frame" x="0.0" y="0.0" width="393" height="134"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yig-xm-dA0">
+                                                            <rect key="frame" x="20" y="0.0" width="353" height="134"/>
+                                                            <color key="backgroundColor" red="0.93321890780000005" green="0.93321890780000005" blue="0.93321890780000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="Yig-xm-dA0" secondAttribute="trailing" constant="20" id="8Im-JL-YwI"/>
+                                                        <constraint firstAttribute="bottom" secondItem="Yig-xm-dA0" secondAttribute="bottom" id="jl7-Ap-iPB"/>
+                                                        <constraint firstItem="Yig-xm-dA0" firstAttribute="top" secondItem="ZYY-HK-GaT" secondAttribute="top" id="yaH-tc-9LP"/>
+                                                        <constraint firstItem="Yig-xm-dA0" firstAttribute="leading" secondItem="ZYY-HK-GaT" secondAttribute="leading" constant="20" id="yfs-zV-9HW"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="ZYY-HK-GaT" secondAttribute="trailing" id="J9M-HO-h9P"/>
+                                                <constraint firstItem="ZYY-HK-GaT" firstAttribute="leading" secondItem="zEU-b5-uEp" secondAttribute="leading" id="OMU-yS-2tN"/>
+                                                <constraint firstItem="ZYY-HK-GaT" firstAttribute="top" secondItem="zEU-b5-uEp" secondAttribute="top" id="o4w-S9-JSF"/>
+                                                <constraint firstAttribute="bottom" secondItem="ZYY-HK-GaT" secondAttribute="bottom" constant="16" id="vGk-DD-PIj"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="lblTitle" destination="Yig-xm-dA0" id="6a3-nn-7yL"/>
+                                            <outlet property="myview" destination="ZYY-HK-GaT" id="xwS-Af-xbT"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="B7s-Sw-xbj"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="B7s-Sw-xbj" firstAttribute="trailing" secondItem="GHO-eh-tp9" secondAttribute="trailing" id="08A-4P-ELQ"/>
+                            <constraint firstItem="GHO-eh-tp9" firstAttribute="leading" secondItem="B7s-Sw-xbj" secondAttribute="leading" id="6Qf-fU-aGE"/>
+                            <constraint firstAttribute="bottom" secondItem="Hd9-aJ-Jan" secondAttribute="bottom" id="Bx3-fd-w1g"/>
+                            <constraint firstItem="GHO-eh-tp9" firstAttribute="top" secondItem="B7s-Sw-xbj" secondAttribute="top" id="O46-Uj-0lp"/>
+                            <constraint firstItem="Hd9-aJ-Jan" firstAttribute="leading" secondItem="Cgm-99-FTS" secondAttribute="leading" id="VKC-m7-ff1"/>
+                            <constraint firstItem="Hd9-aJ-Jan" firstAttribute="top" secondItem="Cgm-99-FTS" secondAttribute="top" id="ron-PA-ci9"/>
+                            <constraint firstItem="B7s-Sw-xbj" firstAttribute="bottom" secondItem="GHO-eh-tp9" secondAttribute="bottom" constant="-34" id="xbq-WQ-ImW"/>
+                            <constraint firstAttribute="trailing" secondItem="Hd9-aJ-Jan" secondAttribute="trailing" id="yv1-h3-lbc"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Menu" id="LS3-cg-6IT"/>
+                    <connections>
+                        <outlet property="tblSidemenu" destination="GHO-eh-tp9" id="YG3-YO-Vo8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x1y-Hf-rxe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1039" y="693"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="FLp-If-XIx">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EJm-MO-mZZ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Zbh-LM-0pT">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="chK-G2-She"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XjH-1p-mTZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20.610687022900763" y="-27.464788732394368"/>
+        </scene>
+        <!--Fourty-->
+        <scene sceneID="Ny0-d0-E9a">
+            <objects>
+                <viewController storyboardIdentifier="fourty" useStoryboardIdentifierAsRestorationIdentifier="YES" id="LsD-fo-8jn" customClass="fourty" customModule="TriciaDuct" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RAB-xF-1Bp">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="AVU-Ba-qxS">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Xjk-eM-ngA"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="AVU-Ba-qxS" secondAttribute="bottom" id="4QF-NJ-b3W"/>
+                            <constraint firstItem="AVU-Ba-qxS" firstAttribute="leading" secondItem="RAB-xF-1Bp" secondAttribute="leading" id="Pax-2d-4vy"/>
+                            <constraint firstAttribute="trailing" secondItem="AVU-Ba-qxS" secondAttribute="trailing" id="pMU-sF-pRy"/>
+                            <constraint firstItem="AVU-Ba-qxS" firstAttribute="top" secondItem="RAB-xF-1Bp" secondAttribute="top" id="uJs-D8-15U"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="8b2-AT-KZW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W8I-qF-d4b" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1637" y="-27"/>
+        </scene>
+        <!--Equilateraltriangle-->
+        <scene sceneID="Gco-qL-H5P">
+            <objects>
+                <viewController storyboardIdentifier="Equilateraltriangle" useStoryboardIdentifierAsRestorationIdentifier="YES" id="a3U-Xw-aKR" customClass="Equilateraltriangle" customModule="TriciaDuct" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g1i-lJ-zsK">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="Umo-gZ-1m1">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7hX-eN-IVA"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Umo-gZ-1m1" firstAttribute="leading" secondItem="g1i-lJ-zsK" secondAttribute="leading" id="57q-PY-bxa"/>
+                            <constraint firstAttribute="bottom" secondItem="Umo-gZ-1m1" secondAttribute="bottom" id="O7U-dU-49l"/>
+                            <constraint firstItem="Umo-gZ-1m1" firstAttribute="top" secondItem="g1i-lJ-zsK" secondAttribute="top" id="Stx-Ed-QR0"/>
+                            <constraint firstAttribute="trailing" secondItem="Umo-gZ-1m1" secondAttribute="trailing" id="gRR-Xt-zvv"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZNm-Fp-uQk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aSy-3g-gvh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2315" y="-27"/>
+        </scene>
+        <!--Isosceles Triangle-->
+        <scene sceneID="rVR-A2-BLE">
+            <objects>
+                <viewController storyboardIdentifier="IsoscelesTriangle" useStoryboardIdentifierAsRestorationIdentifier="YES" id="W0p-cA-V28" customClass="IsoscelesTriangle" customModule="TriciaDuct" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="c6e-Yu-0zl">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="0TV-lO-dHN">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Fk3-As-eVW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="0TV-lO-dHN" secondAttribute="trailing" id="9Se-jz-QVS"/>
+                            <constraint firstItem="0TV-lO-dHN" firstAttribute="top" secondItem="c6e-Yu-0zl" secondAttribute="top" id="Is9-rn-IxG"/>
+                            <constraint firstAttribute="bottom" secondItem="0TV-lO-dHN" secondAttribute="bottom" id="LET-Fp-inL"/>
+                            <constraint firstItem="0TV-lO-dHN" firstAttribute="leading" secondItem="c6e-Yu-0zl" secondAttribute="leading" id="R54-4j-tGX"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="JHz-8p-XYi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zMm-u0-khf" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2982" y="-27"/>
+        </scene>
+        <!--Thirty-->
+        <scene sceneID="q7N-0w-Q6g">
+            <objects>
+                <viewController storyboardIdentifier="thirty" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6Ou-ZV-Vz1" customClass="thirty" customModule="TriciaDuct" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="704-3g-la6">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="9l5-qF-O4A">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VRW-uY-42F"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9l5-qF-O4A" firstAttribute="top" secondItem="704-3g-la6" secondAttribute="top" id="6hQ-Vn-3I8"/>
+                            <constraint firstAttribute="trailing" secondItem="9l5-qF-O4A" secondAttribute="trailing" id="9c4-Sf-Tx3"/>
+                            <constraint firstAttribute="bottom" secondItem="9l5-qF-O4A" secondAttribute="bottom" id="Y2f-8h-V70"/>
+                            <constraint firstItem="9l5-qF-O4A" firstAttribute="leading" secondItem="704-3g-la6" secondAttribute="leading" id="l4g-AA-Rqc"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="xz6-k3-Del"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dHH-QF-6bb" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1715" y="693"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="360" height="786"/>
+        <image name="button 4" width="360" height="786"/>
+        <image name="menu" width="32" height="32"/>
+        <image name="recent" width="32" height="32"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
